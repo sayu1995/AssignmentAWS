@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1611848734379",
+    "Statement": [
+        {
+            "Sid": "Stmt1611848730196",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::698847319302:root"
+            },
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::shdlogfiles/mylogs/AWSlogs/698847319302/\""
+        }
+    ]
+}
+
